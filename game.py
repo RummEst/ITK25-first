@@ -38,7 +38,7 @@ def game():
                 print(f"Save to leaderboard? steps: {steps}")
                 name = input("Name: ")
                 with open("results.txt", "a") as f:
-                    f.write(f"{name}: {unr}")
+                    f.write(f"\n{name}: {unr}")
                     f.close()
                 print("Saved.")
                 with open("results.txt", "r") as f:
