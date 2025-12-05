@@ -27,7 +27,7 @@ def ask():
 def game():
     global steps, pc_nr, game_over
     while True:
-        pc_nr = randint(1, 10)
+        pc_nr = randint(1, 100)
         steps = 0
         game_over = False
         while not game_over:
