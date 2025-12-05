@@ -37,7 +37,7 @@ def game():
             if unr != -1337:
                 print(f"Save to leaderboard? steps: {steps}")
                 name = input("Name: ")
-                with open("results.txt", "w") as f:
+                with open("results.txt", "a") as f:
                     f.write(f"{name}: {unr}")
                     f.close()
                 print("Saved.")
